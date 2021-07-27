@@ -104,10 +104,10 @@
 
 $(document).ready(function(){
 
-  $('.middle').slice(0,6).show();
+  $('.middle').slice(0,8).show();
 
   $('.Show-More').on('click',function(){
-    $ ('.middle:hidden').slice(0,6).slideToggle('slow');
+    $ ('.middle:hidden').slice(0,8).slideToggle('slow');
     if($('.middle:hidden').length == 0){
       $(this).fadeOut('slow');
     }
