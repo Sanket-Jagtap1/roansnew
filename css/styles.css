@@ -397,8 +397,8 @@ button {
 }
 #Service-section .service-item {
   flex: 0 0 33.33%;
-  max-width: 33%;
-  padding: 10px 45px;
+  max-width: 20%;
+/*   padding: 10px 45px; */
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
